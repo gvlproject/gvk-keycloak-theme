@@ -1,5 +1,6 @@
 .login-pf body {
-    background: #0f0f0f url("../img/keycloak-bg.png") top left no-repeat;
+    background: linear-gradient(-50deg, #00a0e0 17%, #0d040a 83%);
+	color: rgba(255, 255, 255, 1);
     background-size: cover;
 }
 
@@ -75,7 +76,6 @@ a#kc-current-locale-link::after {
 }
 
 #kc-logo-wrapper {
-    background-image: url("../img/keycloak-logo.png");
     background-repeat: no-repeat;
 
     height: 57px;
@@ -83,10 +83,10 @@ a#kc-current-locale-link::after {
 }
 
 div.kc-logo-text {
-    background-image: url("../img/keycloak-logo-text.png");
+    background-image: url("../img/2018-gvl-logo-landscape-CMYK.svg");
     background-repeat: no-repeat;
-    width: 250px;
-    height: 38px;
+    width: 550px;
+    height: 200px;
 }
 
 div.kc-logo-text span {
