@@ -1,5 +1,6 @@
 .login-pf body {
-    background: url("../img/keycloak-bg.png") no-repeat center center fixed;
+    background: linear-gradient(-50deg, #00a0e0 17%, #0d040a 83%);
+    color: rgba(255, 255, 255, 1);
     background-size: cover;
 }
 
@@ -85,10 +86,10 @@ a#kc-current-locale-link::after {
 }
 
 div.kc-logo-text {
-    background-image: url(../img/keycloak-logo-text.png);
+    background-image: url(../img/gvl-logo-landscape-2018.svg);
     background-repeat: no-repeat;
-    height: 63px;
-    width: 300px;
+    height: 200px;
+    width: 550px;
     margin: 0 auto;
 }
 
@@ -372,7 +373,7 @@ a.zocial  {
 }
 
 .card-pf {
-  background: #fff;
+  background: transparent;
   margin: 0 auto;
   padding: 0 20px;
   max-width: 500px;
