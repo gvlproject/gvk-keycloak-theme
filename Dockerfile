@@ -1,2 +1,2 @@
 FROM busybox
-COPY gvltheme /gvltheme
+COPY gvltheme /customtheme
