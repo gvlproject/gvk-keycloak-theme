@@ -1,7 +1,8 @@
 .login-pf body {
-    background: url("../img/keycloak-bg.png") no-repeat center center fixed;
+    background: linear-gradient(-50deg, #00a0e0 17%, #0d040a 83%);
     background-size: cover;
     height: 100%;
+    color: white;
 }
 
 /*IE compatibility*/
@@ -227,10 +228,10 @@ a#kc-current-locale-link::after {
 }
 
 div.kc-logo-text {
-    background-image: url(../img/keycloak-logo-text.png);
+    background-image: url(../img/gvl-logo-landscape-2018.svg);
     background-repeat: no-repeat;
-    height: 63px;
-    width: 300px;
+    height: 200px;
+    width: 550px;
     margin: 0 auto;
 }
 
@@ -562,6 +563,10 @@ ul#kc-totp-supported-apps {
 .card-pf form.form-actions .btn {
     float: right;
     margin-left: 10px;
+}
+
+.card-pf {
+    background-color: transparent;
 }
 
 #kc-form-buttons {
