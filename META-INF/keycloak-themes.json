@@ -1,6 +1,6 @@
 {
     "themes": [{
-        "name" : "gvl",
+        "name" : "gvltheme",
         "types": [ "login", "admin", "email", "account", "welcome" ]
     }]
 }
