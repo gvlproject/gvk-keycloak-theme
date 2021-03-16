@@ -85,18 +85,6 @@ a#kc-current-locale-link::after {
     margin: 62px auto 0;
 }
 
-div.kc-logo-text {
-    background-image: url(../img/gvl-logo-landscape-2018.svg);
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 550px;
-    margin: 0 auto;
-}
-
-div.kc-logo-text span {
-    display: none;
-}
-
 #kc-header {
     color: #ededed;
     overflow: visible;
@@ -104,12 +92,15 @@ div.kc-logo-text span {
 }
 
 #kc-header-wrapper {
-    font-size: 29px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: 1.2em;
-    padding: 62px 10px 20px;
-    white-space: normal;
+    background-image: url(../img/gvl-logo-landscape-2018.svg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+#kc-header-wrapper span {
+    display: none;
 }
 
 #kc-content {
